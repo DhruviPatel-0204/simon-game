@@ -1,0 +1,46 @@
+.btn{
+    margin: 25px;
+    /* display: inline-block; */
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+.row1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.row2{
+    display:flex;
+    align-items: center;
+    justify-content: center;;
+}
+body{
+    background-color:dimgrey;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
